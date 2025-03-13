@@ -5,7 +5,7 @@ import Constants from 'expo-constants' ;
 
 //Exemplos
 import Exemplo01 from './src/exemplos/exemplo-01';
- import styles from './src/exemplos/exemplo-01/styles';
+
 
 //Atividades
 
@@ -21,10 +21,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'light',
+    backgroundColor: 'darkslategrey',
     //alignItems: 'center',
     //justifyContent: 'center',
     padding: 8, 
-    paddingTop: Constants.StatusBarHeight, 
+    paddingTop: Constants.statusBarHeight, 
   },
 });
