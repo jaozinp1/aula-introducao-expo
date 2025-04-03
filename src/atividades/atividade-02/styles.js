@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
         borderRadius: 10, // borda curvada
         padding: 8, 
         alignItems: 'center', // alinhamento horizontal - flexDirection collumn
-
     }, 
     titulo: {
         fontSize: RFPercentage(4), // tamanho da fonte
@@ -25,17 +24,7 @@ const styles = StyleSheet.create({
         color: '#333', // cor do texto 
         borderColor: '#333', // cor da borda 
         borderRadius: 20, // arrendondar borda
-    }, 
-    imagem: {
-    width: RFPercentage(12),
-    height: RFPercentage(12),
-    borderRadius: RFPercentage(10),
-    marginBottom: RFPercentage(1),
-    resizeMode: 'contain',
-    alignSelf: 'center',
-    overflow: 'hidden',
-    backgroundColor: '#f5f5f5',
-    }
+    },
 });
 
 export default styles;
