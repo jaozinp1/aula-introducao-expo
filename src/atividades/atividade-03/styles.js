@@ -21,23 +21,28 @@ const styles = StyleSheet.create({
         height: 80, // altura
         textAlign: 'center', //alinhamento horizontal do texto
         textAlignVertical: 'center', //alinhamento vertical do container
-        color : 'darkslategrey', //cor do texto
-        borderColor: 'darkslategrey', //cor da borda
+        color : '#333', //cor do texto
+        borderColor: '#333', //cor da borda
         borderRadius: 20, //arredondar a borda
     },
-    texto: {
-        fontSize: RFPercentage(2.2),
-    },
-    botaoAlert: {
-        width: '50%',
-        margin: RFPercentage(2),
-    },
+    
     valor: {
-        color:'darkslategrey',
+        color:'#333',
         fontSize: RFPercentage(4),
     },
-    botao: {
-        backgroundColor: 'darkslategrey',
+    containerIncremento: {
+        flexDirection: 'row',
+        backgroundColor: 'grey',
+        width: '75%',
+        borderRadius: RFPercentage(2),
+        padding: RFPercentage(1),
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: RFPercentage(2)
+    },
+    
+    botao3: {
+        backgroundColor: 'grey',
         width: '75%',
         borderRadius: RFPercentage(2),
         padding: RFPercentage(1),

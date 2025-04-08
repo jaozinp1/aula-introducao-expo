@@ -1,9 +1,17 @@
-import {View, Text, Button, Alert } from  'react-native'; 
+import { useState} from 'react';
+import {View, Text, Button, Alert, TouchableOpacity } from  'react-native'; 
 
 import styles from './styles';
 
 function Exemplo03 () {
 
+    const [numero, setNumero] = useState(0);
+
+    function handleIncrementa(){
+        setNumero(numero + 1)
+    }
+
+    
     function handleExibeBotao(){
         Alert.alert('Alerta', 'Alguem clicou no botão!')
     }
@@ -46,6 +54,12 @@ function Exemplo03 () {
                 onPress={handleExibeBotao2}
             />
             </View>
+
+            <Text style={styles.valor}>{numero}</Text>
+            <TouchableOpacity style ={styles.botao} onPress={handleIncrementa}>
+                <Text style ={styles.txtBotao}>+1</Text>
+            </TouchableOpacity>
+            
 
 
         </View>
