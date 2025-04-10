@@ -29,11 +29,17 @@ const styles = StyleSheet.create({
     valor: {
         color:'#333',
         fontSize: RFPercentage(4),
+        marginTop:20,
+        marginBottom: 20,
+        borderWidth: 2,
+        borderColor: '#333',
+        borderRadius:20,
+        padding: 7,
+
     },
     containerIncremento: {
-        flexDirection: 'row',
         backgroundColor: 'grey',
-        width: '75%',
+        width: '25%',
         borderRadius: RFPercentage(2),
         padding: RFPercentage(1),
         alignItems: 'center',
@@ -54,7 +60,14 @@ const styles = StyleSheet.create({
     txtBotao : {
         fontSize: RFPercentage(2),
         color: '#fafafa'
-    }
+    },
+    containerBotao: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: RFPercentage(2),
+      },
+      
 });
 
 export default styles;

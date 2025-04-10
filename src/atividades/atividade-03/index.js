@@ -21,22 +21,25 @@ function Atividade03 () {
     
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Atividade 3</Text>
-
-            <Text style={styles.valor}>{numero}</Text>
-            <TouchableOpacity style ={styles.containerIncremento} onPress={handleIncrementa}>
-                <Text style ={styles.txtBotao}>+1</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style ={styles.containerIncremento} onPress={handleDiscrementa}>
-                <Text style ={styles.txtBotao}>-1</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style ={styles.botao3} onPress={handleZerar}>
-                <Text style ={styles.txtBotao}>Zerar</Text>
-            </TouchableOpacity>
-            
-
-
+        <Text style={styles.titulo}>Atividade 3</Text>
+      
+        <Text style={styles.valor}>{numero}</Text>
+      
+        {/* Botões -1 e +1 lado a lado */}
+        <View style={styles.containerBotao}>
+          <TouchableOpacity style={styles.containerIncremento} onPress={handleDiscrementa}>
+            <Text style={styles.txtBotao}>-1</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.containerIncremento} onPress={handleIncrementa}>
+            <Text style={styles.txtBotao}>+1</Text>
+          </TouchableOpacity>
         </View>
+      
+        {/* Botão Zerar */}
+        <TouchableOpacity style={styles.botao3} onPress={handleZerar}>
+          <Text style={styles.txtBotao}>Zerar</Text>
+        </TouchableOpacity>
+      </View>
     );
 }
 
