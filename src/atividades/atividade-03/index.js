@@ -40,6 +40,7 @@ function Atividade03 () {
           <Text style={styles.txtBotao}>Zerar</Text>
         </TouchableOpacity>
       </View>
+      
     );
 }
 
