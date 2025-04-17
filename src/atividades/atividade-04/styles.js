@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         borderRadius: 20, //arredondar a borda
     },
     texto: {
-        fontSize: RFPercentage(2.2),
+        fontSize: RFPercentage(3),
     },
     txtInput: {
         borderWidth: RFPercentage(0.4),
@@ -53,10 +53,10 @@ const styles = StyleSheet.create({
         color: '#fafafa'
     },
     titulo2:{
-        fontSize: RFPercentage(2.2), //tamanho da fonte
+        fontSize: RFPercentage(3), //tamanho da fonte
         //borderWidth: 3, //expessura da borda
-        marginTop: 20, //margem acima do elemento
-        marginBottom: 20, //margem abaixo do elemento 
+        marginTop: 10, //margem acima do elemento
+        marginBottom: 10, //margem abaixo do elemento 
         //padding: RFPercentage(5), //espaço interno
         width: '100%', //largura do elemento 
         height: 80, // altura
