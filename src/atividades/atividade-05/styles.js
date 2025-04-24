@@ -56,16 +56,17 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: '#E91E63',
-        height: 40,
+        height: 38,
         justifyContent: 'center',
         borderRadius: 10,
-        marginTop: 20,
+        marginTop: 15,
+        margin: RFPercentage(0.2)
     },
     textButton: {
         fontSize: 22,
         color: '#FFFFFF',
         textAlign: 'center',
-        width: RFPercentage(15)
+        width: RFPercentage(10)
 
     },
     textLabel: {
@@ -73,6 +74,20 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#C51162',
     },
+    containerButtons: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        marginTop: 8,
+    },
+    zerar : {
+        backgroundColor: '#E91E63',
+        width: '75%',
+        borderRadius: RFPercentage(2),
+        padding: RFPercentage(1),
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: RFPercentage(2)
+    }
   });
 
 
